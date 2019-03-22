@@ -1,0 +1,8 @@
+.NavigationItem {
+  padding: 5px 8px;
+}
+
+.NavigationItem:hover {
+  background-color: #fff;
+  color: #333;
+}
