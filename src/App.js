@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import NavBar from './components/Navigation/NavBar';
 import Banner from './components/Banner/Banner';
+import AboutInfo from './components/AboutInfo/AboutInfo';
+import AboutImage from './components/AboutImage/AboutImage';
 
 import './App.css';
 
@@ -11,7 +13,10 @@ class App extends Component {
       <div className='App'>
         <NavBar />
         <Banner />
-        <p className='TEST'>
+        <AboutInfo />
+        <AboutImage />
+
+        {/* <p className='TEST'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quae
           deserunt explicabo nulla alias corrupti! Cum, nisi repellat? Adipisci
           necessitatibus delectus iste, dolore ut voluptatibus deleniti enim
@@ -24,7 +29,7 @@ class App extends Component {
           praesentium ex aperiam, similique incidunt ab fugiat? Magnam
           repudiandae rerum hic, eaque quasi, nesciunt voluptate, harum nobis
           odit at non libero accusantium.
-        </p>
+        </p> */}
       </div>
     );
   }

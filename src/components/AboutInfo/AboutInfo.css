@@ -1,0 +1,12 @@
+.AboutInfo {
+  grid-area: abin;
+
+  padding: 50px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: flex-start;
+}

@@ -1,0 +1,19 @@
+.AboutImage {
+  grid-area: abim;
+  padding: 50px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutImage img {
+  width: 100%;
+}
+
+/* @media only screen and (max-width: 500px) {
+  .AboutImage {
+    padding: 50px;
+  }
+} */
