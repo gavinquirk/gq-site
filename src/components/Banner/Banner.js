@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import bannerImg from '../../images/cmc_transparent.svg';
+import DownButton from '../DownButton/DownButton';
 
 import './Banner.css';
 
@@ -10,6 +11,7 @@ export default class Banner extends Component {
       <div className='Banner'>
         <img className='bannerimg' src={bannerImg} alt='Computer' />
         <h1>Gavin Quirk - Full Stack Developer</h1>
+        <DownButton />
       </div>
     );
   }

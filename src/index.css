@@ -8,6 +8,9 @@
 
   --color-white-medium: #fafbf3;
   --color-white-dark: #f3f3f3;
+
+  --font-dark: #586874;
+  --font-light: #fafbf3;
 }
 
 * {

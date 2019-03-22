@@ -1,7 +1,7 @@
 .Banner {
   background-color: #9dcb8d;
 
-  color: #fff;
+  color: var(--font-light);
 
   height: 100vh;
 
