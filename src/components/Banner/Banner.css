@@ -1,18 +1,30 @@
 .Banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url('https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2091&q=80');
+  background-color: #9dcb8d;
 
   color: #fff;
 
-  height: 500px;
+  height: 100vh;
 
   display: flex;
+
+  flex-direction: column;
 
   justify-content: center;
   align-items: center;
 }
 
+.Banner .bannerimg {
+  background: url('../../images/cmc_transparent.svg') no-repeat center
+    center/cover;
+
+  width: 1000px;
+  animation: fadein 1s;
+}
+
 .Banner h1 {
+  font-size: 65px;
+  /* text-transform: uppercase; */
+
   animation: fadein 1s;
 }
 

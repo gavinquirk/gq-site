@@ -1,3 +1,15 @@
+:root {
+  --color-primary-medium: #9dcb8d;
+  --color-primary-dark: #8db87f;
+  --color-secondary-medium: #586874;
+  --color-secondary-dark: #1d2c33;
+
+  --color-grey-medium: #606060;
+
+  --color-white-medium: #fafbf3;
+  --color-white-dark: #f3f3f3;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   box-sizing: border-box;
+  color: var(--color-grey-medium);
 }
 
 code {

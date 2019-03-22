@@ -25,7 +25,7 @@ class NavBar extends Component {
         className='NavBar navbar-fixed-top'
         style={{ background: this.state.navColor }}
       >
-        <i class='fab fa-galactic-republic' />
+        <i className='fab fa-galactic-republic' />
         <NavigationItems />
       </nav>
     );
