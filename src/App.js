@@ -4,6 +4,9 @@ import NavBar from './components/Navigation/NavBar';
 import Banner from './components/Banner/Banner';
 import AboutInfo from './components/AboutInfo/AboutInfo';
 import AboutImage from './components/AboutImage/AboutImage';
+import Portfolio from './components/Portfolio/Portfolio';
+import Testimonials from './components/Testimonials/Testimonials';
+import Footer from './components/Footer/Footer';
 
 import './App.css';
 
@@ -15,6 +18,9 @@ class App extends Component {
         <Banner />
         <AboutInfo />
         <AboutImage />
+        <Portfolio />
+        <Testimonials />
+        <Footer />
 
         {/* <p className='TEST'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quae

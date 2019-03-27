@@ -6,7 +6,7 @@ class AboutInfo extends Component {
   render() {
     return (
       <div className='AboutInfo'>
-        <h1 className='heading-large'>THIS IS THE ABOUT SECTION</h1>
+        <h1 className='heading-large'>Full Stack Applications</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
           beatae quam? Asperiores sint reprehenderit, nemo deleniti aspernatur
@@ -15,7 +15,7 @@ class AboutInfo extends Component {
           possimus alias. Fugiat id quas fuga tempora, voluptate rerum
           voluptatem ab laborum iusto assumenda perspiciatis eaque!
         </p>
-        <h1 className='heading-large'>MORE INFO IN THE ABOUT SECTION</h1>
+        <h1 className='heading-large'>Mobile Ready Responsive Websites</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
           cumque porro ullam. Magni libero corrupti repudiandae quis! Aperiam

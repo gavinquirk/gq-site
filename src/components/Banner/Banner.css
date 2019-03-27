@@ -23,9 +23,16 @@
   animation: fadein 1s;
 }
 
+.Banner .heading-box {
+  background-color: var(--color-primary-dark);
+  padding: 10px 50px;
+  border-radius: 15px;
+
+  animation: fadein 1s;
+}
+
 .Banner h1 {
   font-size: 65px;
-  animation: fadein 1s;
 }
 
 /* Animations */

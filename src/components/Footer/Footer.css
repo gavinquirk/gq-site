@@ -1,0 +1,7 @@
+.Footer {
+  background-color: var(--color-secondary-dark);
+
+  color: var(--font-light);
+
+  grid-area: ft;
+}

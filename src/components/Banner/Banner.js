@@ -10,7 +10,9 @@ export default class Banner extends Component {
     return (
       <div className='Banner'>
         <img className='bannerimg' src={bannerImg} alt='Computer' />
-        <h1>Gavin Quirk - Full Stack Developer</h1>
+        <span className='heading-box'>
+          <h1>Gavin Quirk - Full Stack Developer</h1>
+        </span>
         <DownButton />
       </div>
     );

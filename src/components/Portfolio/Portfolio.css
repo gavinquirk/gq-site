@@ -1,0 +1,20 @@
+.Portfolio {
+  grid-area: portfolio;
+}
+
+.Portfolio .heading-top {
+  display: table;
+  margin: 0 auto;
+}
+
+.portfolio-cards {
+  padding: 0 10%;
+}
+
+.portfolio-cards-row {
+  /* padding: 20px 0; */
+
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+}

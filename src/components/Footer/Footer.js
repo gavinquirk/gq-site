@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
-export default class Footer extends Component {
+import './Footer.css';
+
+class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className='Footer'>
         <span>
           Vector Art by <a href='https://www.vecteezy.com/'>Vecteezy</a>
         </span>
@@ -11,3 +13,5 @@ export default class Footer extends Component {
     );
   }
 }
+
+export default Footer;
