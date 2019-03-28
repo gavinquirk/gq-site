@@ -6,20 +6,21 @@ import './PortfolioCard.css';
 class PortfolioCard extends Component {
   render() {
     // Map through content prop array to create bullet points
-    const cardContent = this.props.content.map((bp, i) => {
-      return (
-        <li key={i} style={{ padding: '3px' }}>
-          <i
-            style={{
-              color: this.props.color,
-              marginRight: '1rem'
-            }}
-            className='fas fa-circle'
-          />
-          {bp}
-        </li>
-      );
-    });
+    // const cardContent = this.props.content.map((bp, i) => {
+    //   return (
+    //     <li key={i} style={{ padding: '3px' }}>
+    //       <i
+    //         style={{
+    //           color: this.props.color,
+    //           marginRight: '1rem'
+    //         }}
+    //         className='fas fa-circle'
+    //       />
+    //       {bp}
+    //     </li>
+    //   );
+    // });
+    const cardContent = this.props.content;
 
     return (
       <div className='flip-card'>
@@ -33,9 +34,11 @@ class PortfolioCard extends Component {
             <ul className='flip-card-content'>{cardContent}</ul>
             <div className='flip-card-buttons'>
               {/* <Link to='http://www.google.com'>Google</Link> */}
-              <a href='http://www.google.com' target='_blank'>
+              {/* <a href='http://www.google.com' target='_blank'>
                 Google
-              </a>
+              </a> */}
+              <button>Github</button>
+              <button>Live Site</button>
             </div>
           </div>
         </div>

@@ -73,3 +73,9 @@
   list-style: none;
   padding: 1rem;
 }
+
+.flip-card-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
